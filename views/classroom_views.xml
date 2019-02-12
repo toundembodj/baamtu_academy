@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <!-- tree view -->
+   <record model="ir.ui.view" id="baamtu_academy.classroom_tree_view">
+      <field name="name">baamtu.academy.classroom_list</field>
+      <field name="model">baamtu.academy.classroom</field>
+      <field name="arch" type="xml">
+         <tree>
+            <field name="name" />
+            <field name="number_of_seats" />
+         </tree>
+      </field>
+   </record>
+   <!-- form view -->
+   <record model="ir.ui.view" id="baamtu_academy.classroom_form">
+      <field name="name">baamtu.academy.classroom_form</field>
+      <field name="model">baamtu.academy.classroom</field>
+      <field name="arch" type="xml">
+         <form string="Nouvelle salle">
+            <sheet>
+               <group>
+                  <field name="name" />
+                  <field name="number_of_seats" />
+               </group>
+            </sheet>
+         </form>
+      </field>
+   </record>
+   <!-- action part -->
+   <record model="ir.actions.act_window" id="classroom_list_action">
+      <field name="name">Salles de classe</field>
+      <field name="res_model">baamtu.academy.classroom</field>
+      <field name="view_mode">tree,form</field>
+   </record>
+   <!-- menu part -->
+   <menuitem name="Gestion des classes" id="baamtu_academy.classroom_main_menu" parent="baamtu_academy.main_menu" />
+   <menuitem id="classroom_list_menu" name="Les classes" parent="baamtu_academy.classroom_main_menu" action="classroom_list_action" />
+</odoo>

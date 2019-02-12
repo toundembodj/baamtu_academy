@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <!-- list view -->
+   <record model="ir.ui.view" id="baamtu_academy.student_list">
+      <field name="name">baamtu.academy.student_list</field>
+      <field name="model">baamtu.academy.student</field>
+      <field name="arch" type="xml">
+         <tree>
+            <field name="name" />
+            <field name="email" />
+            <field name="phone" />
+            <field name="region" />
+            <field name="street" />
+            <field name="gender" />
+         </tree>
+      </field>
+   </record>
+   <!--form view -->
+    <record model="ir.ui.view" id="student_form_view">
+        <field name="name">baamtu.academy.student_form</field>
+        <field name="model">baamtu.academy.student</field>
+        <field name="arch" type="xml">
+            <form string="baamtu étudiants formulaire">
+                <sheet>
+                    <group>
+                        <group string="General">
+                            <field name="name"/>
+                            <field name="email"/>
+                            <field name="phone" />
+                            <field name="region" />
+                            <field name="street" />
+                            <field name="gender" />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+   <!-- action part -->
+   <record model="ir.actions.act_window" id="student_list_action">
+      <field name="name">Etudiants</field>
+      <field name="res_model">baamtu.academy.student</field>
+      <field name="view_mode">tree,form</field> 
+   </record>
+   <!-- menu part -->
+   <menuitem name="Gestion des étudiants" id="baamtu_academy.student_main_menu" parent="baamtu_academy.main_menu" />
+   <menuitem id="student_list_menu" name="Les étudiants" parent="baamtu_academy.student_main_menu" action="student_list_action" />
+</odoo>

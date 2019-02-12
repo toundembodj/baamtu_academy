@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <record model="ir.ui.view" id="baamtu_academy.wizard_list">
+      <field name="name">baamtu.academy.registration.wizard</field>
+      <field name="model">baamtu.academy.registration.wizard</field>
+      <field name="arch" type="xml">
+         <form>
+            <sheet>
+                <group>
+                    <field name="student_ids" />
+                    <field name="course_ids" />
+                </group>
+                    <footer>
+                        <button name="subscribe" type="object" string="Subscribe" class="oe_highlight"/>
+                        or
+                        <button special="cancel" string="Cancel"/>
+                    </footer>
+            </sheet>
+         </form>
+      </field>
+   </record>
+    <act_window 
+        id="baamtu_academy_wizard_views" 
+        name="Inscription groupée" 
+        res_model="baamtu.academy.registration.wizard"
+        src_model="baamtu.academy.course"
+        view_mode="form"
+        target="new"
+        multi="True"
+        key2="client_action_multi"
+    />
+</odoo>

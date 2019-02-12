@@ -1,0 +1,38 @@
+<odoo>
+    <record id="classroom_1_demo" model="baamtu.academy.classroom">
+            <field name="name">Salle_1</field>
+            <field name="number_of_seats">100</field>
+    </record>
+    <record id="classroom_2_demo" model="baamtu.academy.classroom">
+            <field name="name">Salle_2</field>
+            <field name="number_of_seats">150</field>
+    </record>
+    <record id="classroom_3_demo" model="baamtu.academy.classroom">
+            <field name="name">Salle_3</field>
+            <field name="number_of_seats">110</field>
+    </record>
+    <record id="classroom_4_demo" model="baamtu.academy.classroom">
+            <field name="name">Salle_4</field>
+            <field name="number_of_seats">100</field>
+    </record>
+    <record id="classroom_5_demo" model="baamtu.academy.classroom">
+            <field name="name">Salle_5</field>
+            <field name="number_of_seats">200</field>
+    </record>
+    <record id="classroom_6_demo" model="baamtu.academy.classroom">
+            <field name="name">Salle_6</field>
+            <field name="number_of_seats">30</field>
+    </record>
+    <record id="classroom_7_demo" model="baamtu.academy.classroom">
+            <field name="name">Salle_7</field>
+            <field name="number_of_seats">110</field>
+    </record>
+    <record id="classroom_8_demo" model="baamtu.academy.classroom">
+            <field name="name">Salle_8</field>
+            <field name="number_of_seats">150</field>
+    </record>
+    <record id="classroom_9_demo" model="baamtu.academy.classroom">
+            <field name="name">Salle_9</field>
+            <field name="number_of_seats">100</field>
+    </record>
+</odoo>

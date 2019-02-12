@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <!-- tree view -->
+   <record model="ir.ui.view" id="baamtu_academy.registration_tree_view">
+      <field name="name">baamtu.academy.registration_list</field>
+      <field name="model">baamtu.academy.registration</field>
+      <field name="arch" type="xml">
+         <tree>
+            <field name="display_name"/>
+            <field name="student_id" />
+            <field name="course_id" />
+            <field name="date"/>
+            <field name="state" invisible="1"/>
+         </tree>
+      </field>
+   </record>
+   <!-- form view -->
+   <record model="ir.ui.view" id="baamtu_academy.registration_form">
+      <field name="name">baamtu.academy.registration_form</field>
+      <field name="model">baamtu.academy.registration</field>
+      <field name="type">form</field>
+      <field name="arch" type="xml">
+         <form string="Nouvelle inscription à un cours">
+            <header>
+               <button string="Valider" type="object" name="validate_progressbar" states="draft"/>
+               <button string="Annuler" type="object" name="cancel_progressbar" states="draft"/>
+               <field name="state" widget="statusbar"/>
+            </header>
+            <sheet>
+               <group>
+                  <field name="student_id"/>
+                  <field name="course_id"/>
+                  <field name="date"/>
+               </group>
+            </sheet>
+         </form>
+      </field>
+   </record>
+   <!-- kanban view -->
+   <record model="ir.ui.view" id="baamtu_academy.registration_kanban">
+      <field name="name">baamtu.academy.registration_kanban</field>
+      <field name="model">baamtu.academy.registration</field>
+      <field name="arch" type="xml">
+         <kanban default_group_by="course_id">
+            <field name="color" />
+            <templates>
+               <t t-name="kanban-box">
+                  <div t-attf-class="oe_kanban_color_{{kanban_getcolor(record.color.raw_value)}} oe_kanban_global_click_edit oe_semantic_html_override                                                   oe_kanban_card {{record.group_fancy==1 ? 'oe_kanban_card_fancy' : ''}}">
+                     <div class="oe_dropdown_kanban">
+                        <!-- dropdown menu -->
+                        <div class="oe_dropdown_toggle">
+                           <i class="fa fa-bars fa-lg" title="Manage" aria-label="Manage" />
+                           <ul class="oe_dropdown_menu">
+                              <li>
+                                 <a type="delete">Delete</a>
+                              </li>
+                              <li>
+                                 <ul class="oe_kanban_colorpicker" data-field="color" />
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="oe_clear" />
+                     </div>
+                     <div t-attf-class="oe_kanban_content">
+                        <!-- title -->
+                        <field name="student_id" />
+                     </div>
+                  </div>
+               </t>
+            </templates>
+         </kanban>
+      </field>
+   </record>
+    <!-- graph view  -->
+   <record model="ir.ui.view" id="baamtu_academy.registration_graph">
+      <field name="name">baamtu_academy.registration_graph</field>
+      <field name="model">baamtu.academy.registration</field>
+      <field name="arch" type="xml">
+         <graph string="Participations by Courses">
+            <field name="student_id"/>
+            <field name="course_id" type="row"/>
+         </graph>
+      </field>
+   </record>
+   <!-- action part -->
+   <record model="ir.actions.act_window" id="registration_list_action">
+      <field name="name">Inscription</field>
+      <field name="res_model">baamtu.academy.registration</field>
+      <field name="view_mode">tree,form,kanban,graph</field>
+   </record>
+   <!-- menu part -->
+   <menuitem name="Gestion des inscriptions" id="baamtu_academy.registration_main_menu" parent="baamtu_academy.main_menu" />
+   <menuitem id="registration_list_menu" name="Les inscriptions" parent="baamtu_academy.registration_main_menu" action="registration_list_action" />
+</odoo>

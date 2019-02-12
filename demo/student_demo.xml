@@ -1,0 +1,65 @@
+<odoo>
+    <record id="student_1_demo" model="baamtu.academy.student">
+            <field name="name">Etudiant_1</field>
+            <field name="email">etudiant_1@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+            <field name="gender">male</field>
+    </record>
+    <record id="student_2_demo" model="baamtu.academy.student">
+            <field name="name">Etudiant_2</field>
+            <field name="email">etudiant_2@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+            <field name="gender">female</field>
+    </record>
+    <record id="student_3_demo" model="baamtu.academy.student">
+            <field name="name">Etudiant_3</field>
+            <field name="email">etudiant_3@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+            <field name="gender">male</field>
+    </record>
+    <record id="student_4_demo" model="baamtu.academy.student">
+            <field name="name">Etudiant_4</field>
+            <field name="email">etudiant_4@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+            <field name="gender">female</field>
+    </record>
+    <record id="student_5_demo" model="baamtu.academy.student">
+            <field name="name">Etudiant_5</field>
+            <field name="email">etudiant_5@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+            <field name="gender">male</field>
+    </record>
+    <record id="student_6_demo" model="baamtu.academy.student">
+            <field name="name">Etudiant_6</field>
+            <field name="email">etudiant_6@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+            <field name="gender">female</field>
+    </record>
+    <record id="student_7_demo" model="baamtu.academy.student">
+            <field name="name">Etudiant_7</field>
+            <field name="email">etudiant_7@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+            <field name="gender">male</field>
+    </record>
+    <record id="student_8_demo" model="baamtu.academy.student">
+            <field name="name">Etudiant_8</field>
+            <field name="email">etudiant_8@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+            <field name="gender">female</field>
+    </record>
+    <record id="student_9_demo" model="baamtu.academy.student">
+            <field name="name">Etudiant_9</field>
+            <field name="email">etudiant_9@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+            <field name="gender">male</field>
+    </record>
+</odoo>

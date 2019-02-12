@@ -1,0 +1,12 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+academy_manager_baamtu_academy,academy manager course,model_baamtu_academy_course,baamtu_academy.manager_group,1,1,1,1
+academy_manager_classroom,academy manager classroom,model_baamtu_academy_classroom,baamtu_academy.manager_group,1,1,1,1
+academy_manager_registration,academy manager registration,model_baamtu_academy_registration,baamtu_academy.manager_group,1,1,1,1
+academy_manager_student,academy manager student,model_baamtu_academy_student,baamtu_academy.manager_group,1,1,1,1
+academy_manager_teacher,academy manager teacher,model_baamtu_academy_teacher,baamtu_academy.manager_group,1,1,1,1
+academy_manager_registration_report,academy manager business intelligence,model_baamtu_academy_registration_report,baamtu_academy.manager_group,1,1,1,1
+academy_user_baamtu_academy,academy user course,model_baamtu_academy_course,baamtu_academy.users_group,1,0,0,0
+academy_user_classroom,academy user classroom,model_baamtu_academy_classroom,baamtu_academy.users_group,1,0,0,0
+academy_user_registration,academy user registration,model_baamtu_academy_registration,baamtu_academy.users_group,1,0,0,0
+academy_user_student,academy user student,model_baamtu_academy_student,baamtu_academy.users_group,1,0,0,0
+academy_user_teacher,academy user teacher,model_baamtu_academy_teacher,baamtu_academy.users_group,1,0,0,0

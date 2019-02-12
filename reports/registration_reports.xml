@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- graph view  -->
+   <record model="ir.ui.view" id="baamtu_academy.bi_graph">
+      <field name="name">baamtu_academy_registration_report.graph</field>
+      <field name="model">baamtu.academy.registration.report</field>
+      <field name="arch" type="xml">
+         <graph string="Participations par Cours" >
+            <field name="course_name"/>
+            <field name="number_of_registered" type="measure"/>
+         </graph>
+      </field>
+   </record>
+
+   <!-- action part -->
+   <record model="ir.actions.act_window" id="bi_action">
+      <field name="name">Pourcentages d'élèves inscrits par cours</field>
+      <field name="res_model">baamtu.academy.registration.report</field>
+      <field name="view_mode">graph</field>
+   </record>
+   <!-- menu part -->
+   <menuitem name="Tableau de bord" id="baamtu_academy.bi_main_menu" parent="baamtu_academy.main_menu" action="bi_action" />
+</odoo>

@@ -1,0 +1,915 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: baamtu_academy\n"
+"Language: fr\n"
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.report_registration_view
+msgid "<br/>\n"
+"                                    <strong>Courriel: </strong>"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.report_registration_view
+msgid "<br/>\n"
+"                                    <strong>Pays: </strong>"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.report_registration_view
+msgid "<br/>\n"
+"                                    <strong>Rue: </strong>"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.report_registration_view
+msgid "<br/>\n"
+"                                    <strong>Téléphone: </strong>"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.course_kanban
+msgid "<br/>\n"
+"                        Date de début:"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.course_kanban
+msgid "<br/>\n"
+"                        Date de fin:"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.course_kanban
+msgid "<br/>\n"
+"                        Nombre d'inscrits:"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.course_kanban
+msgid "<br/>\n"
+"                        Salle:"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.course_kanban
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.registration_kanban
+msgid "<i class=\"fa fa-bars fa-lg\" title=\"Manage\" aria-label=\"Manage\"/>"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.report_registration_view
+msgid "<span>Date d'inscription</span>"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.report_registration_view
+msgid "<span>Nom du cours</span>"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.report_registration_view
+msgid "<span>Nombres d'élèves</span>"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.report_registration_view
+msgid "<span>Professeur </span>"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.report_registration_view
+msgid "<span>Salle de classe</span>"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.report_registration_view
+msgid "<strong>Fiche d'inscription</strong>"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.report_registration_view
+msgid "<strong>Nom: </strong>"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:res.groups,name:baamtu_academy.manager_group
+msgid "Academy manager"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:res.groups,name:baamtu_academy.users_group
+msgid "Academy user"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__active
+msgid "Actif"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__active
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__active
+msgid "Active"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__type
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__type
+msgid "Address Type"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__lang
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__lang
+msgid "All the emails and documents sent to this contact will be translated in this language."
+msgstr ""
+
+#. module: baamtu_academy
+#: selection:baamtu.academy.registration,state:0
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.registration_form
+msgid "Annuler"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.ui.menu,name:baamtu_academy.main_menu
+msgid "Baamtu academy"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__bank_ids
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__bank_ids
+msgid "Banks"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__barcode
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__barcode
+msgid "Barcode"
+msgstr ""
+
+#. module: baamtu_academy
+#: selection:baamtu.academy.registration,state:0
+msgid "Brouillon"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.wizard_list
+msgid "Cancel"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__category
+msgid "Catégorie"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__is_company
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__customer
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__customer
+msgid "Check this box if this contact is a customer. It can be selected in sales orders."
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__supplier
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__supplier
+msgid "Check this box if this contact is a vendor. It can be selected in purchase orders."
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__employee
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__employee
+msgid "Check this box if this contact is an Employee."
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__city
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__city
+msgid "City"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__code
+msgid "Code"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__color
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__color
+msgid "Color"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__color
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__color
+msgid "Color Index"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__commercial_partner_id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__commercial_partner_id
+msgid "Commercial Entity"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__company_id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__company_id
+msgid "Company"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__company_name
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__company_name
+msgid "Company Name"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__commercial_company_name
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__commercial_company_name
+msgid "Company Name Entity"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__company_type
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__company_type
+msgid "Company Type"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__contact_address
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__contact_address
+msgid "Complete Address"
+msgstr ""
+
+#. module: baamtu_academy
+#: selection:baamtu.academy.course,category:0
+msgid "Comptabilité"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model,name:baamtu_academy.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__child_ids
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__child_ids
+msgid "Contacts"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__country_id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__country_id
+msgid "Country"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__course_id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration_wizard__course_ids
+msgid "Cours"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_classroom__course_ids
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__course_ids
+msgid "Course"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_classroom__create_uid
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__create_uid
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__create_uid
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration_wizard__create_uid
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__create_uid
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_classroom__create_date
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__create_date
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__create_date
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration_wizard__create_date
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__create_date
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__credit_limit
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__credit_limit
+msgid "Credit Limit"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__date
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__date
+msgid "Date"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__date
+msgid "Date d'inscription"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__date_start
+msgid "Date de début"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__date_stop
+msgid "Date de fin"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.course_kanban
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.registration_kanban
+msgid "Delete"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__description
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.course_form
+msgid "Description"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_classroom__display_name
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__display_name
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__display_name
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration_wizard__display_name
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__display_name
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__partner_share
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__partner_share
+msgid "Either customer (not a user), either shared user. Indicated the current partner is a customer without access or with a limited access created for sharing data."
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__email
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__email
+msgid "Email"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__employee
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__employee
+msgid "Employee"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__student_id
+msgid "Etudiant"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.actions.act_window,name:baamtu_academy.student_list_action
+msgid "Etudiants"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.actions.report,name:baamtu_academy.registration_report
+msgid "Fiche d'inscription"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__email_formatted
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__email_formatted
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__email_formatted
+msgid "Formatted Email"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.student_form_view
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.teacher_form_view
+msgid "General"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.ui.menu,name:baamtu_academy.classroom_main_menu
+msgid "Gestion des classes"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.ui.menu,name:baamtu_academy.course_main_menu
+msgid "Gestion des cours"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.ui.menu,name:baamtu_academy.registration_main_menu
+msgid "Gestion des inscriptions"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.ui.menu,name:baamtu_academy.teacher_main_menu
+msgid "Gestion des professeurs"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.ui.menu,name:baamtu_academy.student_main_menu
+msgid "Gestion des étudiants"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_classroom__id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration_wizard__id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__id
+msgid "ID"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_classroom__name
+msgid "Identifiant"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__image
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__image
+msgid "Image"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__industry_id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__industry_id
+msgid "Industry"
+msgstr ""
+
+#. module: baamtu_academy
+#: selection:baamtu.academy.course,category:0
+msgid "Informatique"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.actions.act_window,name:baamtu_academy.registration_list_action
+msgid "Inscription"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.actions.act_window,name:baamtu_academy.baamtu_academy_wizard_views
+msgid "Inscription groupée"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__is_registered
+msgid "Inscrits"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__ref
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__ref
+msgid "Internal Reference"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__is_company
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__is_company
+msgid "Is a Company"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__customer
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__customer
+msgid "Is a Customer"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__supplier
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__supplier
+msgid "Is a Vendor"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__function
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__function
+msgid "Job Position"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__lang
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__lang
+msgid "Language"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_classroom____last_update
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course____last_update
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration____last_update
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration_wizard____last_update
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student____last_update
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_classroom__write_uid
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__write_uid
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__write_uid
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration_wizard__write_uid
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__write_uid
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_classroom__write_date
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__write_date
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__write_date
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration_wizard__write_date
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__write_date
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.ui.menu,name:baamtu_academy.classroom_list_menu
+msgid "Les classes"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.actions.act_window,name:baamtu_academy.course_action_window
+#: model:ir.ui.menu,name:baamtu_academy.course_list_menu
+msgid "Les cours"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.ui.menu,name:baamtu_academy.registration_list_menu
+msgid "Les inscriptions"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.ui.menu,name:baamtu_academy.teacher_list_menu
+msgid "Les professeurs"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.ui.menu,name:baamtu_academy.student_list_menu
+msgid "Les étudiants"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__image_medium
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__image_medium
+msgid "Medium-sized image"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__image_medium
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__image_medium
+msgid "Medium-sized image of this contact. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__mobile
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__mobile
+msgid "Mobile"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__name
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__name
+msgid "Name"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__name
+msgid "Nom"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.course_kanban
+msgid "Nom:"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__number_of_registered
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__number_of_registered
+msgid "Nombre d'inscrits"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__max_reserved_places
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__max_reserved_places
+msgid "Nombre maximum de places"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_classroom__number_of_seats
+msgid "Nombres de places"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__comment
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__comment
+msgid "Notes"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.course_form
+msgid "Nouveau cours"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.registration_form
+msgid "Nouvelle inscription à un cours"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.classroom_form
+msgid "Nouvelle salle"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__parent_name
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__parent_name
+msgid "Parent name"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.course_graph
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.registration_graph
+msgid "Participations by Courses"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__partner_id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__partner_id
+msgid "Partner"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__phone
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__phone
+msgid "Phone"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__teacher_id
+msgid "Professeur"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.actions.act_window,name:baamtu_academy.teacher_list_action
+msgid "Professeurs"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__registration_ids
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__registration_ids
+msgid "Registration"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__parent_id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__parent_id
+msgid "Related Company"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__region
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__region
+#: model:ir.model.fields,field_description:baamtu_academy.field_res_partner__region
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.res_partner_form
+msgid "Région"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__user_id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__user_id
+msgid "Salesperson"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_course__classroom_id
+msgid "Salle de classe"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.actions.act_window,name:baamtu_academy.classroom_list_action
+msgid "Salles de classe"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__self
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__self
+msgid "Self"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.course_calendar
+msgid "Session Calendar"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__partner_share
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__partner_share
+msgid "Share Partner"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__image_small
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__image_small
+msgid "Small-sized image"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__image_small
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__image_small
+msgid "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration__state
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__state_id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__state_id
+msgid "State"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__street
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__street
+msgid "Street"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__street2
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__street2
+msgid "Street2"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.wizard_list
+msgid "Subscribe"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__category_id
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__category_id
+msgid "Tags"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__vat
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__vat
+msgid "Tax ID"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__vat
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__vat
+msgid "The Tax Identification Number. Complete it if the contact is subjected to government taxes. Used in some legal statements."
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__user_id
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__user_id
+msgid "The internal user in charge of this contact."
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__tz
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__tz
+msgid "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__image
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__image
+msgid "This field holds the image used as avatar for this contact, limited to 1024x1024px"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__tz
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__tz
+msgid "Timezone"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__tz_offset
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__tz_offset
+msgid "Timezone offset"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__title
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__title
+msgid "Title"
+msgstr ""
+
+#. module: baamtu_academy
+#: sql_constraint:baamtu.academy.registration:0
+msgid "Un élève ne peut s'inscrire qu'une fois à un cours !"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__barcode
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__barcode
+msgid "Use a barcode to identify this contact from the Point of Sale."
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_student__type
+#: model:ir.model.fields,help:baamtu_academy.field_baamtu_academy_teacher__type
+msgid "Used by Sales and Purchase Apps to select the relevant address depending on the context."
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__user_ids
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__user_ids
+msgid "Users"
+msgstr ""
+
+#. module: baamtu_academy
+#: selection:baamtu.academy.registration,state:0
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.registration_form
+msgid "Valider"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__website
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__website
+msgid "Website"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_student__zip
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_teacher__zip
+msgid "Zip"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.teacher_form_view
+msgid "baamtu professeurs formulaire"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.student_form_view
+msgid "baamtu étudiants formulaire"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model,name:baamtu_academy.model_baamtu_academy_bi
+msgid "baamtu.academy.bi"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model,name:baamtu_academy.model_baamtu_academy_classroom
+msgid "baamtu.academy.classroom"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model,name:baamtu_academy.model_baamtu_academy_course
+msgid "baamtu.academy.course"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model,name:baamtu_academy.model_baamtu_academy_registration
+msgid "baamtu.academy.registration"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model,name:baamtu_academy.model_baamtu_academy_registration_wizard
+msgid "baamtu.academy.registration.wizard"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model,name:baamtu_academy.model_baamtu_academy_student
+msgid "baamtu.academy.student"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model,name:baamtu_academy.model_baamtu_academy_teacher
+msgid "baamtu.academy.teacher"
+msgstr ""
+
+#. module: baamtu_academy
+#: model:ir.model.fields,field_description:baamtu_academy.field_baamtu_academy_registration_wizard__student_ids
+msgid "etudiants"
+msgstr ""
+
+#. module: baamtu_academy
+#: model_terms:ir.ui.view,arch_db:baamtu_academy.wizard_list
+msgid "or"
+msgstr ""
+

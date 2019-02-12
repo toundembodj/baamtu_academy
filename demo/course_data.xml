@@ -1,0 +1,38 @@
+<odoo>
+    <record id="course0" model="baamtu.academy.course">
+        <field name="name">Algorithme</field>
+        <field name="description">Cours d'initiation à l'informatique</field>
+        <field name="max_reserved_places">10</field>
+        <field name="date_start">20/01/2019</field>
+        <field name="date_stop">20/02/2019</field>
+        <field name="category">computer_science</field>
+        <field name="active">true</field>
+    </record>
+    <record id="course1" model="baamtu.academy.course">
+        <field name="name">Programmation Odoo</field>
+        <field name="description">Cours sur la programmation de module odoo</field>
+        <field name="max_reserved_places">15</field>
+        <field name="date_start">21/02/2019</field>
+        <field name="date_stop">20/03/2019</field>
+        <field name="category">computer_science</field>
+        <field name="active">true</field>
+    </record>
+    <record id="course2" model="baamtu.academy.course">
+        <field name="name">Programmation java</field>
+        <field name="description">Cours sur la programmation en java</field>
+        <field name="max_reserved_places">5</field>
+        <field name="date_start">21/02/2019</field>
+        <field name="date_stop">20/03/2019</field>
+        <field name="category">computer_science</field>
+        <field name="active">true</field>
+    </record>
+    <record id="course3" model="baamtu.academy.course">
+        <field name="name">Comptabilite</field>
+        <field name="description">Cours sur la comptabilite sous Odoo</field>
+        <field name="max_reserved_places">30</field>
+        <field name="date_start">21/02/2019</field>
+        <field name="date_stop">20/03/2019</field>
+        <field name="category">accounting</field>
+        <field name="active">true</field>
+    </record>
+</odoo>

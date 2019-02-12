@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <!-- list view -->
+   <record model="ir.ui.view" id="baamtu_academy.course_list">
+      <field name="name">baamtu.academy.course_list</field>
+      <field name="model">baamtu.academy.course</field>
+      <field name="arch" type="xml">
+         <tree>
+            <field name="name" />
+            <field name="active" />
+            <field name="code" />
+            <field name="max_reserved_places" />
+            <field name="classroom_id" />
+            <field name="teacher_id" />
+            <field name="date_start" />
+            <field name="date_stop" />
+            <field name="category" />
+            <field name="description" />
+            <field name="is_registered" />
+            <field name="number_of_registered"/>
+         </tree>
+      </field>
+   </record>
+   <!-- form view -->
+   <record model="ir.ui.view" id="baamtu_academy.course_form">
+      <field name="name">baamtu.academy.course_form</field>
+      <field name="model">baamtu.academy.course</field>
+      <field name="arch" type="xml">
+         <form string="Nouveau cours">
+            <sheet>
+               <group>
+                  <field name="name" />
+                  <field name="date_start" />
+                  <field name="date_stop" />
+                  <field name="category" />
+                  <field name="max_reserved_places" />
+                  <field name="classroom_id" />
+                  <field name="teacher_id" />
+                  <separator colspan="8" />
+                  <notebook>
+                     <page string="Description">
+                        <field name="description" />
+                     </page>
+                  </notebook>
+               </group>
+            </sheet>
+         </form>
+      </field>
+   </record>
+   <!-- kanban view -->
+   <record model="ir.ui.view" id="baamtu_academy.course_kanban">
+      <field name="name">baamtu.academy.course_kanban</field>
+      <field name="model">baamtu.academy.course</field>
+      <field name="arch" type="xml">
+         <kanban default_group_by="name">
+            <field name="color" />
+            <templates>
+               <t t-name="kanban-box">
+                  <div t-attf-class="oe_kanban_color_{{kanban_getcolor(record.color.raw_value)}} oe_kanban_global_click_edit oe_semantic_html_override                                                   oe_kanban_card {{record.group_fancy==1 ? 'oe_kanban_card_fancy' : ''}}">
+                     <div class="oe_dropdown_kanban">
+                        <!-- dropdown menu -->
+                        <div class="oe_dropdown_toggle">
+                           <i class="fa fa-bars fa-lg" title="Manage" aria-label="Manage" />
+                           <ul class="oe_dropdown_menu">
+                              <li>
+                                 <a type="delete">Delete</a>
+                              </li>
+                              <li>
+                                 <ul class="oe_kanban_colorpicker" data-field="color" />
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="oe_clear" />
+                     </div>
+                     <div t-attf-class="oe_kanban_content">
+                        <!-- title -->
+                        Nom:
+                        <field name="name" />
+                        <br />
+                        Date de début:
+                        <field name="date_start" />
+                        <br />
+                        Date de fin:
+                        <field name="date_stop" />
+                        <br />
+                        Nombre d'inscrits:
+                        <field name="number_of_registered" />
+                        <br />
+                        Salle:
+                        <field name="classroom_id" />
+                     </div>
+                  </div>
+               </t>
+            </templates>
+         </kanban>
+      </field>
+   </record>
+   <!-- calendar view  -->
+   <record model="ir.ui.view" id="baamtu_academy.course_calendar">
+      <field name="name">baamtu.academy.course_calendar</field>
+      <field name="model">baamtu.academy.course</field>
+      <field name="arch" type="xml">
+         <calendar string="Session Calendar" date_start="date_start" date_stop="date_stop" color="color">
+            <field name="name" />
+         </calendar>
+      </field>
+   </record>
+   <!-- actions part -->
+   <record model="ir.actions.act_window" id="baamtu_academy.course_action_window">
+      <field name="name">Les cours</field>
+      <field name="res_model">baamtu.academy.course</field>
+      <field name="view_mode">tree,form,calendar,kanban</field>
+   </record>
+   <!-- menu part -->
+   <menuitem id="baamtu_academy.main_menu" name="Baamtu academy" web_icon="baamtu_academy,static/description/icon.png"/>
+   <menuitem id="course_main_menu" name="Gestion des cours" parent="baamtu_academy.main_menu" />
+   <menuitem id="baamtu_academy.course_list_menu" name="Les cours" parent="course_main_menu" sequence="1" action="baamtu_academy.course_action_window" />
+</odoo>

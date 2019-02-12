@@ -1,0 +1,56 @@
+<odoo>
+    <record id="teacher_1_demo" model="baamtu.academy.teacher">
+            <field name="name">teacher_1</field>
+            <field name="email">teacher_1@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+    </record>
+    <record id="teacher_2_demo" model="baamtu.academy.teacher">
+            <field name="name">teacher_2</field>
+            <field name="email">teacher_2@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+    </record>
+    <record id="teacher_3_demo" model="baamtu.academy.teacher">
+            <field name="name">teacher_3</field>
+            <field name="email">teacher_3@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+    </record>
+    <record id="teacher_4_demo" model="baamtu.academy.teacher">
+            <field name="name">teacher_4</field>
+            <field name="email">teacher_4@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+    </record>
+    <record id="teacher_5_demo" model="baamtu.academy.teacher">
+            <field name="name">teacher_5</field>
+            <field name="email">teacher_5@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+    </record>
+    <record id="teacher_6_demo" model="baamtu.academy.teacher">
+            <field name="name">teacher_6</field>
+            <field name="email">teacher_6@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+    </record>
+    <record id="teacher_7_demo" model="baamtu.academy.teacher">
+            <field name="name">teacher_7</field>
+            <field name="email">teacher_7@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+    </record>
+    <record id="teacher_8_demo" model="baamtu.academy.teacher">
+            <field name="name">teacher_8</field>
+            <field name="email">teacher_8@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+    </record>
+    <record id="teacher_9_demo" model="baamtu.academy.teacher">
+            <field name="name">teacher_9</field>
+            <field name="email">teacher_9@baamtu.test</field>
+            <field name="phone">00221777777777</field>
+            <field name="street">Dakar</field>
+    </record>
+</odoo>

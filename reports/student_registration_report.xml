@@ -1,0 +1,55 @@
+<odoo>
+    <report
+        id="registration_report"
+        model="baamtu.academy.student"
+        string="Fiche d'inscription"
+        report_type="qweb-pdf"
+        name="baamtu_academy.report_registration_view"
+        file="baamtu.academy.student"
+    />
+
+    <template id="report_registration_view">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="doc">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <h3><strong>Fiche d'inscription</strong></h3>
+                        <div class="row mt64">
+                            <div class="col-6">
+                                <p>
+                                    <strong>Nom: </strong> <span t-field="doc.name"/><br />
+                                    <strong>Courriel: </strong> <span t-field="doc.email"/><br />
+                                    <strong>Téléphone: </strong> <span t-field="doc.phone"/><br />
+                                    <strong>Pays: </strong> <span t-field="doc.region"/><br />
+                                    <strong>Rue: </strong> <span t-field="doc.street"/><br />
+                                </p>
+                            </div>
+                        </div>
+                        <br />
+                        <table class="table table-sm">
+                            <thead>
+                                <tr>
+                                    <th><span>Nom du cours</span></th>
+                                    <th><span>Date d'inscription</span></th>
+                                    <th><span>Nombres d'élèves</span></th>
+                                    <th><span>Professeur </span></th>
+                                    <th><span>Salle de classe</span></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr t-foreach='doc.registration_ids' t-as='value'>
+                                    <td><span t-esc="value.course_id.name"/></td>
+                                    <td><span t-esc="value.date"/></td>
+                                    <td class="text-center"><span t-esc="value.number_of_registered"/></td>
+                                    <td t-if="value.course_id.teacher_id"><span t-esc="value.course_id.teacher_id.name"/></td>
+                                    <td t-if="value.course_id.classroom_id"><span t-esc="value.course_id.classroom_id.name"/></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+</odoo>

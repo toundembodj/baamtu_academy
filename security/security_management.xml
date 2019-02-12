@@ -1,0 +1,8 @@
+<odoo>
+    <record id="baamtu_academy.manager_group" model="res.groups">
+        <field name="name">Academy manager</field>
+    </record>
+    <record id="baamtu_academy.users_group" model="res.groups">
+        <field name="name">Academy user</field>
+    </record>
+</odoo>
